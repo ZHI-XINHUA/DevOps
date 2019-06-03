@@ -169,7 +169,7 @@ public class LoginAndLogoutTest {
         //测试登录成功
         System.out.println("jdbc--->"+loginUser+" 登录"+(subject.isAuthenticated()?"成功":"失败"));
 
-        System.out.println("=============登出========");
+        System.out.println("============= 登出========");
         subject.logout();
 
         System.out.println(loginUser+" 登出"+(subject.isAuthenticated()?"成功":"失败"));

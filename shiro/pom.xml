@@ -6,7 +6,11 @@
 
     <groupId>zxh</groupId>
     <artifactId>shiro</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>shiro-demo1-authentication</module>
+    </modules>
 
 
 </project>

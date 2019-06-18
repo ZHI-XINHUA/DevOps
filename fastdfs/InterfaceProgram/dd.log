@@ -1,0 +1,16 @@
+2019-06-05 10:20:08.616  INFO 8272 --- [main] c.z.I.InterfaceProgramApplication        : Starting InterfaceProgramApplication on xhzhi-PC with PID 8272 (E:\github_pro_3\InterfaceProgram\target\classes started by xh.zhi in E:\github_pro_3\InterfaceProgram)
+2019-06-05 10:20:08.625  INFO 8272 --- [main] c.z.I.InterfaceProgramApplication        : The following profiles are active: logging
+2019-06-05 10:20:09.370  INFO 8272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-06-05 10:20:09.386  INFO 8272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-05 10:20:09.387  INFO 8272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-05 10:20:09.479  INFO 8272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-05 10:20:09.479  INFO 8272 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 823 ms
+2019-06-05 10:20:09.638  INFO 8272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-05 10:20:09.790  INFO 8272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-06-05 10:20:09.792  INFO 8272 --- [main] c.z.I.InterfaceProgramApplication        : Started InterfaceProgramApplication in 1.499 seconds (JVM running for 2.131)
+2019-06-05 10:20:15.281  INFO 8272 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-05 10:20:15.281  INFO 8272 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-05 10:20:15.285  INFO 8272 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-06-05 10:20:15.301  INFO 8272 --- [http-nio-8088-exec-1] c.z.I.controller.IndexController         : ====info====
+2019-06-05 10:20:15.302  WARN 8272 --- [http-nio-8088-exec-1] c.z.I.controller.IndexController         : =====warn====
+2019-06-05 10:20:15.302 ERROR 8272 --- [http-nio-8088-exec-1] c.z.I.controller.IndexController         : =====error==

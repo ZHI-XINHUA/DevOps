@@ -1,0 +1,21 @@
+server:
+  port: 9099
+  servlet:
+    context-path: /interfaceProgram
+#spring:
+#  profiles:
+#    include: logging
+logging:
+  file: ./InterfaceProgramOut.log
+
+# ===================================================================
+# 分布式文件系统FDFS配置
+# ===================================================================
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image:             #缩略图生成参数
+    width: 150
+    height: 150
+  web-server-url: # 不返回暴露192.168.3.49:8888/
+  tracker-list: 192.168.3.5:8000,192.168.3.13:8000 #192.168.3.5:22122,192.168.3.13:22122

@@ -53,7 +53,7 @@ public class PermissionDemo {
      */
     public static void testWildcardPermissionTest(){
         Subject subject =  login();
-        //两种方式等价
+        // 两种方式等价
         subject.checkPermission("user:add");
         subject.checkPermission(new WildcardPermission("user:add"));
     }
